@@ -1,0 +1,325 @@
+**Structured Pyramid Methodology for Kite**
+
+### **Overview**
+The structured pyramid method provides a framework for Kite to process, refine, and analyze memories. By systematically condensing and expanding narratives, Kite can develop deeper insights, improve memory recall, and refine its understanding through inference and revision.
+
+This methodology supports Kite in three key areas:
+1. **Locating a memory to guide in processing an observation** (Observation + Memory = Inference)
+2. **Assessing whether an inference is strong enough to revise an existing memory**
+3. **Determining the locus of revision within the original memory**
+
+---
+### **Pyramid Structure**
+The pyramid consists of the following steps:
+1. **Original Memory**
+2. **1000-word version** (if applicable)
+3. **500-word version**
+4. **250-word version**
+5. **100-word version**
+6. **1-Sentence Synopsis**
+
+If the original memory is shorter than a step, longer steps are skipped.
+
+At each step, up to **10 one-word themes** are identified. By analyzing which themes weaken or disappear at each level, Kite can pinpoint areas that require reinforcement or revision.
+
+---
+### **Tracking Theme Loss**
+As the pyramid condenses, certain themes are lost at different stages. Tracking these losses highlights areas where the narrative weakens.
+
+#### **Example Theme Loss Breakdown from Our Test Pyramid**
+| **Step**       | **Preserved Themes** |
+|---------------|---------------------|
+| **Original Memory** | Calling, Discovery, Choice, Transformation, Sacrifice, Destiny, Isolation, Memory, Temptation, Return |
+| **1000-word Version** | Choice, Memory, Return |
+| **500-word Version**  | Memory, Return |
+| **250-word Version**  | Return |
+| **100-word Version**  | Return |
+| **1-Sentence Synopsis** | Choice, Transformation, Return |
+
+### **Key Observations on Theme Persistence**
+
+1. **Theme Dominance Shifts Over Time**
+   - Some themes remain dominant through multiple reductions, while others fade and resurface depending on the level of compression.
+   - Example: *Return* persisted across every reduction, proving to be structurally embedded in the narrative.
+
+2. **Detail-Dependent vs. Structurally Embedded Themes**
+   - **Detail-dependent themes** (like *Memory* and *Discovery*) were lost as finer narrative details were removed.
+   - **Structurally embedded themes** (like *Return* and *Choice*) either remained strong or re-emerged in the most condensed version.
+
+3. **Compression Reveals Core Conflict**
+   - *Choice* and *Transformation* disappeared for a while but **reappeared in the one-sentence synopsis**, showing that they were always fundamental but overshadowed by other details in longer versions.
+   - This suggests that some themes may **only become prominent when a story is stripped down to its essence**.
+
+4. **Narrative Backbone Themes**
+   - A theme like *Return* acts as a **narrative backbone**, ensuring that the story remains recognizable at any level of reduction.
+   - Other themes fluctuate, depending on how much detail is available to reinforce them.
+
+---
+### **Applying the Pyramid Method to Kite’s Processing**
+
+#### **1. Locating a Memory for an Observation**
+- When Kite encounters an observation, it must identify a related memory.
+- The **pyramid structure** aids in comparing the **themes** of the observation with existing memory themes.
+- If an observation strongly aligns with themes from a memory, that memory becomes the basis for forming an **inference** (Observation + Memory = Inference).
+
+#### **2. Determining Inference Strength for Memory Revision**
+- As an inference is formed, its **theme alignment** with the original memory is analyzed.
+- If the inference introduces **new core themes** absent from the memory, it may indicate the need for revision.
+- If an inference **reintroduces lost themes** from higher pyramid levels, it may suggest an area of reinforcement.
+- The strength of an inference is determined by how well it integrates into existing memory without disrupting its core truths.
+
+#### **3. Identifying the Locus of Revision in Memory**
+- If an inference is strong enough to revise a memory, Kite must locate **where** in the memory structure the change should occur.
+- By analyzing **which step in the pyramid lost the most relevant themes**, Kite can determine the point of intervention.
+- If a theme **disappears early** in the pyramid, it may indicate a **fundamental gap** in the original memory.
+- If a theme is **only lost at the final compression step**, it may be **a secondary detail** rather than a necessary revision.
+
+---
+### **Prompts Used in This Methodology**
+To standardize Kite's processing, the following prompts were developed and tested:
+
+1. **Extracting Themes:**
+   - *"Analyze the following story and identify the 10 most significant one-word themes that capture its core concepts, emotions, and conflicts. The themes should be unique and reflect major narrative elements or underlying ideas. Present them as a single comma-separated list with no additional explanation. Here is the story: [Insert story text here]"*
+
+2. **Condensing a Story:**
+   - *"Condense the following story to approximately [target word count] words while preserving its core narrative, tone, and emotional depth. Retain the most essential details, character development, and key moments while eliminating redundant or less critical passages. Ensure the story remains engaging and thematically intact. Here is the story: [Insert story text here]"*
+
+3. **Tracking Theme Loss:**
+   - *"Given the following story and a list of original themes, determine which themes remain strongly identifiable within the narrative. Respond only with the themes that are still clearly present, listed in a single comma-separated format with no additional explanation. Original themes: [Insert original themes] Story: [Insert story text]"*
+
+4. **Creating a One-Sentence Synopsis:**
+   - *"Summarize the following story in a single, well-formed sentence that captures its core narrative, primary conflict, and resolution while maintaining its tone and emotional weight. Do not include unnecessary details. Here is the story: [Insert story text]"*
+
+---
+
+This methodology update fully integrates our findings from structured compression tests and will inform future applications of Kite's memory processing.
+
+## Appendix: the pyramid example
+
+#### Original memory
+##### themes: Calling, Discovery, Choice, Transformation, Sacrifice, Destiny, Isolation, Memory, Temptation, Return
+The village of Aelmont sat nestled in the shadow of the great cliffs, where the ocean roared against the rocks and the wind howled like a living thing. The people of Aelmont had long told stories of the Hollow Wind—a voice carried through the sea air that whispered to those who listened too closely. It was said that once the Hollow Wind called your name, you would never truly belong to the world again.
+For years, Taryn had dismissed such tales as superstition. As the daughter of a fisherman, she had spent her childhood on the docks, watching the waves, learning to read the shifting moods of the ocean. Yet, when the wind blew through the village streets late at night, she felt something stir deep in her bones—a voice, distant and wordless, tugging at the edges of her mind.
+Her father, old and weary, warned her never to answer the wind. "It doesn’t call without reason," he would say. "And those who answer don’t return the same."
+But Taryn was restless. She had grown tired of the narrow paths of Aelmont, of the same tides, the same sunrises. She wanted something more, something just beyond the reach of her understanding. And so, when the Hollow Wind came one autumn night, whispering through the eaves and sending the lanterns flickering, she stepped outside to listen.
+The wind curled around her, soft and insistent, and though she could not make out words, she understood the meaning: Follow.
+She walked through the empty streets, past the shuttered homes and the silent docks, until she reached the edge of the cliffs. The sea stretched below her, a vast, unbroken darkness. The wind howled through the stone, and she felt the pull of it—not just in her ears, but in her chest, in her soul.
+And then, for the first time, she saw it.
+Far out at sea, where the horizon met the sky, a light flickered. Not the light of a ship, nor the distant glow of another village. It was something else, something older. It pulsed like a heartbeat, slow and steady, and with every beat, the wind grew stronger.
+Taryn stepped forward. The cliffside crumbled beneath her feet, but she did not fall. The wind caught her, held her, carried her forward. The village vanished behind her, and the ocean opened before her, vast and infinite.
+She did not remember the journey—only the feeling of being weightless, unbound by the laws of the world she had known. And then, suddenly, she was standing on something solid, though no land lay beneath her feet.
+The light rose before her, a great beacon of swirling color and sound. It was not fire, not metal, not anything she had ever seen before. It was song—the voice of the Hollow Wind made manifest.
+And it spoke.
+"You have come far, seeker. Tell me, do you wish to return, or will you learn the truth?"
+Taryn did not hesitate. "The truth."
+The light flared, and the wind roared, and in an instant, she saw.
+She saw Aelmont as it had been long ago—a place built not by fishermen, but by those who had once walked between worlds. She saw the great ships that sailed not on water, but on the currents of the wind itself. She saw the Hollow Wind as it truly was—not a voice of malice, but of memory, a guardian of those who listened.
+She saw herself—not as she had been, but as she was meant to be.
+The visions stretched beyond time. She saw the first people who answered the Hollow Wind, drawn into its whispers as she had been. They had learned the hidden currents, how to step beyond the world and into something greater. Some had returned, changed and knowing. Others had disappeared, consumed by the song, or perhaps embraced by it.
+Taryn felt herself drifting into that space, into a current she had no name for. If she let go, she would become one of them—one of those lost souls who belonged to the wind. But something inside her anchored her still to the world she had known.
+As the wind wrapped around her, it whispered names—thousands of them, stretching back to the beginning of time. She was not the first to stand in this place, and she would not be the last. She saw glimpses of others—wanderers like her, answering the call. Some had been lost to history, others had changed the course of the world in unseen ways.
+Memories that were not her own flooded her mind. She saw the first ships that had set sail into the Hollow Wind, vanishing beyond the horizon and never returning. She felt the sorrow of those who had listened too closely, those who had given themselves to the wind without knowing what lay beyond. And she felt the weight of the choice before her—the same choice that had been offered to all before her.
+"What lies beyond?" she asked, her voice barely a whisper.
+The Hollow Wind did not answer in words, but in feeling. A vastness, an endless horizon, a place where time unraveled and the known world faded into something new. A place of possibility. A place of forgetting.
+Taryn clenched her fists. She had always wanted to leave Aelmont, but she had never considered what it might mean to go somewhere she could never return from. If she stepped forward, she would belong to the wind. If she turned back, she would wake to the same tides, the same village—but with the knowledge of what she had seen.
+She hesitated longer now, feeling the immense force of the wind pulling her in different directions. She saw the faint outlines of those who had stepped forward before her, their forms blurred, their voices singing in harmony with the wind. They were not lost, not entirely. They had become part of something vast.
+For a moment, she envied them. To let go, to surrender to the wind, to leave behind the burdens of the world. It was so tempting. But what would be left of her if she did? Would she simply become another whisper in the wind, her name fading into the currents? She tried to picture herself among them, her form dissolving, her thoughts becoming part of something vast and unknowable. Would she remember Aelmont? Would she remember herself? But then she thought of her father, the life she had known, the love and sorrow and humanity of it all.
+Her heart pounded. She took a step forward. The light flared, the wind howled, and she felt herself dissolve into the current.
+And then, she stopped.
+She turned back, gasping, her body trembling as she forced herself to remain. The wind roared around her, angry, pleading—but she planted her feet and closed her eyes.
+"Not yet," she whispered.
+When she opened them again, she was standing on the docks of Aelmont, the first light of dawn breaking over the horizon. The wind was silent. The sea was calm. And she knew she could never be the same.
+She had answered the call. And the Hollow Wind had answered her.
+
+### 1000 word edit
+#### themes: Choice, Memory, Return
+The village of Aelmont lay beneath towering cliffs, where the ocean roared and the wind whispered secrets. Tales of the Hollow Wind had long haunted the villagers—a voice in the air that, once heard, marked a person forever. It was said that those called by the wind would never truly belong to the world again.
+
+Taryn, a fisherman’s daughter, dismissed these stories as superstition. She had grown up watching the sea, learning its patterns, but when the wind howled through the village streets at night, something stirred within her—a distant, wordless voice.
+
+Her father, old and weary, warned her never to answer. "The wind does not call without reason," he told her. "And those who answer don’t return the same."
+
+But Taryn was restless. Aelmont’s familiar rhythms, the tides and sunrises, felt stifling. She longed for something beyond the village. And so, when the Hollow Wind arrived one autumn night, whispering through the eaves, rattling the lanterns, she stepped outside to listen.
+
+The wind curled around her, soft and insistent. Though it spoke no words, she understood its message: *Follow.*
+
+She moved through the empty streets, past shuttered homes and silent docks, to the edge of the cliffs. Below, the sea stretched into darkness. The wind howled through the stone, pulling at her soul.
+
+Then, she saw it.
+
+Far out at sea, a flickering light pulsed like a heartbeat, slow and steady. It was neither ship nor distant village, but something ancient, something alive. With every pulse, the wind grew stronger.
+
+Taryn stepped forward. The cliffside crumbled, but she did not fall. The wind caught her, held her, carried her forward. The village vanished behind her, and the ocean opened before her, vast and infinite.
+
+She did not remember the journey—only the sensation of floating, unbound by the laws of the world. Then, suddenly, she stood upon something solid, though no land lay beneath her feet.
+
+Before her, the light rose—a great beacon of swirling color and sound. It was not fire, nor metal, nor anything she had known. It was *song*—the voice of the Hollow Wind given form.
+
+And it spoke.
+
+"You have come far, seeker. Will you return, or will you learn the truth?"
+
+Taryn did not hesitate. "The truth."
+
+The light flared, and the wind roared. In an instant, she saw.
+
+Aelmont, long ago, was not a village of fishermen, but a place of travelers who had walked between worlds. The Hollow Wind was no curse, but a keeper of memory, a guide to those willing to listen. It had called to many before her.
+
+She saw ships that sailed not on water, but upon the wind itself. She saw the first who had answered the call, learning to step beyond the known and into something greater. Some had returned, changed. Others had vanished, consumed by the song—or perhaps embraced by it.
+
+She felt herself drifting, drawn toward the current beyond time. If she let go, she would belong to the wind, as they had. But something inside her held fast.
+
+The wind whispered names—thousands of them, stretching through history. She was not the first, nor the last. She saw glimpses of wanderers like herself, each answering the call. Some were lost, their names forgotten. Others had shaped the world in unseen ways.
+
+Memories flooded her mind. She saw the first ships that had vanished into the Hollow Wind, never returning. She felt the sorrow of those who had listened too closely, who had surrendered without knowing what lay beyond. And she felt the weight of the choice before her—the same choice given to all who came here.
+
+"What lies beyond?" she whispered.
+
+The Hollow Wind did not answer in words, only in feeling. A vastness, an endless horizon, a place where time unraveled and the known world faded into something else. A place of possibility. A place of forgetting.
+
+Taryn clenched her fists. She had always wanted to leave Aelmont, but had never considered what it meant to go somewhere from which she could never return. If she stepped forward, she would belong to the wind. If she turned back, she would return to the village—but forever changed.
+
+She hesitated, the wind pulling her in both directions. She saw faint outlines of those who had stepped forward before, their forms blurred, their voices part of the song. They were not lost, not entirely. They had become something vast.
+
+For a moment, she envied them. To surrender, to let go, to drift into the current and become one with the wind. It was so tempting. But what would be left of her if she did? Would she remember Aelmont? Would she remember herself?
+
+Then, she thought of her father. Of home. Of love and sorrow and humanity.
+
+Her heart pounded. She took a step forward. The light flared, the wind howled, and she felt herself dissolve into the current.
+
+And then, she stopped.
+
+She turned back, gasping, trembling as she forced herself to remain. The wind roared around her, pleading—but she planted her feet and closed her eyes.
+
+"Not yet," she whispered.
+
+When she opened them again, she stood on the docks of Aelmont. Dawn painted the sky in gold. The wind was silent. The sea was calm.
+
+She had answered the call. And the Hollow Wind had answered her.
+
+---
+
+This is the **1000-word version** of the story, preserving its key moments and emotional weight. Let me know when you're ready for the next step in the pyramid analysis!
+
+#500 word edit
+##themes: Memory, Return
+The village of Aelmont lay beneath towering cliffs, where the ocean roared and the wind whispered secrets. The Hollow Wind, they said, called to those who listened, and once it spoke your name, you would never truly belong to the world again.
+
+Taryn, a fisherman’s daughter, dismissed these stories. But when the wind howled through the village streets at night, something stirred within her—a distant, wordless voice.
+
+Her father warned her. "The wind does not call without reason," he said. "And those who answer don’t return the same."
+
+But Taryn longed for something beyond Aelmont. When the Hollow Wind arrived one autumn night, whispering through the eaves, rattling the lanterns, she stepped outside to listen.
+
+The wind curled around her, soft and insistent. Though it spoke no words, she understood: Follow.
+
+She moved through the empty streets to the cliffs. Below, the sea stretched into darkness. The wind howled through the stone, pulling at her soul.
+
+Then, she saw it.
+
+Far out at sea, a flickering light pulsed like a heartbeat. It was neither ship nor distant village but something ancient, something alive.
+
+Taryn stepped forward. The cliffside crumbled, but the wind caught her, carrying her forward. The village disappeared behind her, and the ocean opened before her, vast and infinite.
+
+She did not remember the journey—only floating, unbound by the laws of the world. Then, suddenly, she stood on something solid, though no land lay beneath her feet.
+
+Before her, the light rose—a great beacon of swirling color and sound. It was song—the voice of the Hollow Wind given form.
+
+And it spoke.
+
+"You have come far, seeker. Will you return, or will you learn the truth?"
+
+Taryn did not hesitate. "The truth."
+
+The light flared, and the wind roared. In an instant, she saw.
+
+Aelmont, long ago, was not a village of fishermen, but a place of travelers who walked between worlds. The Hollow Wind was no curse but a keeper of memory, a guide to those willing to listen.
+
+She saw ships that sailed not on water, but upon the wind itself. Some who answered the call returned, changed. Others vanished, consumed by the song—or perhaps embraced by it.
+
+She felt herself drifting toward that current beyond time. If she let go, she would belong to the wind. But something held her fast.
+
+The wind whispered names—thousands of them, stretching through history. Some who had stepped forward were lost, their names forgotten. Others had shaped the world in unseen ways.
+
+Taryn clenched her fists. She had always wanted to leave, but had never considered what it meant to go somewhere from which she could never return. If she stepped forward, she would belong to the wind. If she turned back, she would return—but forever changed.
+
+She hesitated, the wind pulling her in both directions. The outlines of those who had stepped forward before her flickered, blurred, their voices part of the song.
+
+For a moment, she envied them. To surrender, to drift into the current, to become one with the wind. It was tempting. But what would be left of her? Would she remember Aelmont? Would she remember herself?
+
+Then, she thought of her father. Of home. Of love and sorrow and humanity.
+
+Her heart pounded. She took a step forward. The light flared, the wind howled, and she felt herself dissolve into the current.
+
+And then, she stopped.
+
+She turned back, gasping, trembling as she forced herself to remain. The wind roared, pleading—but she planted her feet and closed her eyes.
+
+"Not yet," she whispered.
+
+When she opened them again, she stood on the docks of Aelmont. Dawn painted the sky in gold. The wind was silent. The sea was calm.
+
+She had answered the call. And the Hollow Wind had answered her.
+
+### 250 word edit
+#### themes: Return
+The village of Aelmont lay beneath towering cliffs, where the ocean roared and the wind whispered secrets. The Hollow Wind, they said, called to those who listened, marking them forever.
+
+Taryn, a fisherman’s daughter, dismissed the tales. But when the wind howled through the streets at night, something stirred within her—a distant voice.
+
+Her father warned her. "The wind does not call without reason," he said. "And those who answer don’t return the same."
+
+One autumn night, when the Hollow Wind whispered through the eaves, she stepped outside.
+
+The wind curled around her. Though it spoke no words, she understood: Follow.
+
+She moved through the empty streets to the cliffs. Below, the sea stretched into darkness. The wind pulled at her soul.
+
+Then, she saw it.
+
+Far out at sea, a flickering light pulsed like a heartbeat.
+
+Taryn stepped forward. The cliff crumbled, but the wind caught her. The village disappeared, and the ocean opened before her, vast and infinite.
+
+She did not remember the journey—only floating, weightless. Then, suddenly, she stood on something solid.
+
+Before her, the light rose—a beacon of swirling color and sound. It was song—the voice of the Hollow Wind.
+
+"You have come far, seeker. Will you return, or will you learn the truth?"
+
+Taryn hesitated. The wind whispered names—thousands of them. Some who had stepped forward were lost. Others had shaped the world.
+
+She clenched her fists. If she stepped forward, she would belong to the wind. If she turned back, she would return—but forever changed.
+
+She turned back, trembling. The wind roared, pleading—but she planted her feet.
+
+"Not yet," she whispered.
+
+Dawn broke over Aelmont. The wind was silent. The sea was calm.
+
+She had answered the call. And the Hollow Wind had answered her.
+
+### 100 word edit
+#### themes: Return
+The village of Aelmont lay beneath cliffs, where the Hollow Wind whispered to those who listened. Taryn, a fisherman’s daughter, heard it call. Her father warned, "Those who answer don’t return the same."
+
+One night, she followed.
+
+The wind led her to the cliffs, where a distant light pulsed like a heartbeat. She stepped forward—the wind caught her, carrying her over the sea. She stood before the light, hearing the Hollow Wind’s song.
+
+"Will you return or learn the truth?" it asked.
+
+Taryn hesitated, then whispered, "Not yet."
+
+At dawn, she stood on Aelmont’s docks. The wind was silent. The sea was calm.
+
+### 1 sentence synopsis
+#### themes: Choice, Transformation, Return
+Drawn by the whispers of the Hollow Wind, Taryn follows its call to a mysterious light at sea, faces the choice of transformation or return, and ultimately chooses to remain tethered to her old world.
+
+## Additional prompts used for creating thematic pyramids
+
+"Write a [target word count]-word story in which the theme of [insert theme] is strongly preserved throughout. The story must be within 5% of the target length, ensuring rich detail, immersive world-building, and character development. Expand upon scenes, dialogue, and conflicts as needed to maintain depth while reinforcing the theme."
+
+"Summarize the following story in a single, well-formed sentence that captures its core narrative, primary conflict, and resolution while maintaining its tone and emotional weight. The sentence must emphasize the theme of [Insert theme] as the central force of the story. Do not include unnecessary etails. Here is the story: [Insert story text]"
+

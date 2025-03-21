@@ -44,3 +44,19 @@ class PyramidLevel(Base):
 
     def __repr__(self):
         return f"<PyramidLevel(pyramid_id={self.pyramid_id}, level={self.level})>"
+
+from sqlalchemy import Column, Integer, String, Text, Boolean, DateTime
+from datetime import datetime
+
+class PromptTemplate(Base):
+    __tablename__ = "prompt_templates"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(100), unique=True, nullable=False)  # Internal name (e.g., "condense_1000")
+    purpose = Column(String(100), nullable=False)  # What it's for (e.g., "condensing")
+    template = Column(Text, nullable=False)  # The actual text of the prompt
+    active = Column(Boolean, default=True)  # Whether it's currently used
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+    def __repr__(self):
+        return f"<PromptTemplate(name={self.name}, active={self.active})>"
